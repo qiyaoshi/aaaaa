@@ -12,7 +12,7 @@ public class SaleTicket{
 
 	// 该售票处的总资源数
 	private int ticketAmount;
-	// 重复锁
+	// 测试
 	private Lock lock = new ReentrantLock();
 	
 	public SaleTicket() {

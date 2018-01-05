@@ -10,7 +10,9 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class SaleTicket{
 
+	// 该售票处的总资源数
 	private int ticketAmount;
+	// 重复锁
 	private Lock lock = new ReentrantLock();
 	
 	public SaleTicket() {
